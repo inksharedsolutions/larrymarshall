@@ -1,0 +1,100 @@
+.banner-content-wrapper{
+    h1{
+        font-weight: bold;
+        // font-family: 'Playball', cursive;
+        font-size: 4vw;
+        color: #000 !important;
+        span{
+            color: #000;
+            display: block;
+        }
+
+        &:after{
+            content: '';
+            width: 193px;
+            background: #d6a26c;
+            position: relative;
+            display: block;
+            height: 5px;
+            margin: 6px 13px;
+        }
+    }
+}
+
+#banner-layout-responsive{
+    height: 60vh;
+}
+
+.banner-section{
+    background: #f7f4e9;
+
+
+    background-image: url("../../../static/banner/web_banner.png");
+
+    /* Set a specific height */
+    height: 60vh;
+  
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.heading-banner-fs{
+    font-size: 6em;
+    span{
+        display: block;
+        color: #fff !important;
+        font-weight: 100;
+    }
+}
+
+
+.meta-spanline{
+    color: #fff !important;
+    font-family: 'Scheherazade', serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 24px;
+
+
+    &:before{
+        content: '';
+        width: 114px;
+        background: #ffffff;
+        position: relative;
+        display: inline-block;
+        height: 1px;
+        margin: 6px 13px;
+    }
+}
+
+
+.letter-sf-first{
+    font-family: 'Marck Script', cursive;
+    display: inline-block !important;
+    font-size: 2.4em !important;
+    color: #f39a3e !important;
+    &:before{
+        content: '';
+    }
+}
+
+
+@keyframes bounce {
+    0% {
+      top: 0px;
+
+    }
+    50% {
+      top: 20px;
+
+    }
+    100% {
+      top: 0px;
+    }
+  }
