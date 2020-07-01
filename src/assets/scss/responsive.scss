@@ -1,8 +1,24 @@
 @media only screen and (max-width: 1450px) {
+    .book-letter{
+        transform: translateX(0px);
+    }
 
-    // .navigation{
-    //     padding: 0 14%;
-    // }
+    .mid-main {
+        #logos-col{
+            margin: 24% 0;
+        }
+    }
+
+}
+@media only screen and (max-width: 1350px) {
+    .text-content-wrapper{
+        p{
+            letter-spacing: 9px;
+        }
+        h2{
+            transform: translateY(-21px);
+        }
+    }
 }
 
 
@@ -16,14 +32,166 @@
 
 @media only screen and (max-width: 990px) {
 
+    .text-content-wrapper{
+        height: 500px;
+    }
+
+    .heading-banner-fs{
+        font-size: 4em;
+    }
+
+    .mid-main{
+        .middle-params{
+            margin-bottom: 5% !important; 
+            text-align: center;
+        }
+
+        #logos-col{
+            margin: 7% 0;
+        }
+    }
+    
+    .upper-main{
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+
+    .author-image{
+        padding: 25px;
+    }
+
+    #column-upper{
+        margin: 10vh 0;
+        display: block;
+    }
+
+    .list-nav-side{
+        display: none;
+    }
+
+    #book-columns{
+        .box-element-left{
+            button{
+                position: relative;
+                display: block;
+                margin: 28px auto;
+                transform: translate(0,0);
+            }
+        }
+        .box-element-right{
+            height: auto;
+        }
+    }
+
+    .author-image{
+
+        margin: 0 auto;
+        max-width: 500px;
+
+        img{
+            // padding: 53px;
+            transform: translateY(0px);
+        }
+
+        button{
+            display: none;
+        }
+    }
+
     .page-section{
         grid-template-columns: 5% 1fr 5%;
     } 
 
-    .svg-bg,.svg-bg-author,.svg-bg-books{
+    .upper-main{
+        .col-right{
+            text-align: center;
+            padding: 50px 25px;
+        }
+
+        &:before{
+            display: none;
+        }
+    }
+
+    .social-media-nav{
+        ul{
+            margin: 3em auto;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    
+    .book-letter{
         display: none;
     }
 
+    .two-grid-elements{
+        grid-template-columns: auto;
+        height: 100%;
+
+        .box-one{
+            justify-content: center;
+            align-items: center;
+            h1{
+                &:before{
+                    margin: 25px auto;
+                }
+            }
+        }
+
+    }
+
+    .body-author-contents{
+        grid-template-columns: auto;
+    }
+
+    .form-newsletter-wrapper{
+        text-align: center;
+    }
+
+    .footer-container,
+    #author-container,
+    #auth-content-wrapper,
+    .grid-element-text{
+        grid-template-columns: auto;
+        height:auto;
+        text-align: center;
+    }
+
+    #grid-bg-element{
+        &:after{
+            display: none;
+        }
+
+        .box-one{
+            padding: 10% 15%;
+        }
+    }
+
+    .grid-template-four-col{
+        width: 100%;
+    }
+
+    .text-content-wrapper{
+        h2, h1{
+            font-size: 13vw;
+        }
+    }
+
+    #parent-quote-col{
+        #left-col {
+            display: none;
+            span{
+                &:nth-child(1),
+                &:nth-child(2){
+                    display: none;
+                }
+            }
+        }
+    }
+ 
     .wrapper-ds{
         align-items: center;
     }
@@ -71,6 +239,13 @@
         a{
             margin: 0 16px;
             margin-right:0px;
+        }
+    }
+
+    .heading-quote{
+        text-align: center;
+        h4{
+            font-size: 4rem;
         }
     }
 
@@ -126,7 +301,7 @@
     }
 
     #banner-layout-responsive{
-        height: 70vh;
+        height: 45vh;
     }
 
     .wrapper-auth-content {
@@ -269,6 +444,14 @@
 }
 
 @media only screen and (max-width: 450px) {
+
+    .author-name-fx{
+        span{
+            &:nth-child(2){
+                font-size:4rem;
+            }
+        }
+    }
 
     .web-banner {
         h1{
