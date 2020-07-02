@@ -30,10 +30,10 @@ const Nav = (props) =>{
 	
 		return (
 			<li>
-				<Link 
+				<AniLink
 					to={filterUrl}>
 					{res}
-				</Link>
+				</AniLink>
 			</li>
 		)
 	})
@@ -96,7 +96,20 @@ const Nav = (props) =>{
 						</AniLink>
 					</li>
 				 </ul>
+
+				<nav 
+					onClick={()=>{setToggled(!toggled)}}
+					className="burger-nav">
+					<span></span>
+					<span></span>
+				</nav>
 			</nav>
+
+			{ toggled && (
+				<nav className="active-mobile-nav">
+					{Listed}
+				</nav>
+			)}
 
         </>			
     )

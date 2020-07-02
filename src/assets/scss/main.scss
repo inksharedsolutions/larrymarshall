@@ -279,8 +279,31 @@ button{
     top: 42px;
 }
 
-.non-active-nav{
+.burger-nav{
     display:none;
+}
+
+
+.active-mobile-nav{
+    background: #f1e8e2;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    li{
+        list-style-type: none;
+        margin-bottom: 16px;
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #000 !important;
+            text-transform: uppercase;
+        }
+    }
 }
 
 

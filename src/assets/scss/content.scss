@@ -25,6 +25,20 @@
     } 
 }
 
+.burger-nav{
+    position: absolute;
+    right: 48px;
+    background: #f1e8e2;
+    padding: 19px;
+    span{
+        width: 26px;
+        height: 5px;
+        background: #a58b8b;
+        display: block;
+        margin-bottom: 3px;
+    }
+}
+
 
 #book-columns{
     align-items: center;
