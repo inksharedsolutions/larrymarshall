@@ -300,8 +300,24 @@ button{
             font-size: 14px;
             font-weight: 900;
             letter-spacing: 2px;
-            color: #000 !important;
+            color: #a58b8b !important;
             text-transform: uppercase;
+        }
+    }
+    p{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000 !important;
+
+        &:after{
+            content: '';
+            width: 326px;
+            background: #a58b8b;
+            position: relative;
+            display: block;
+            height: 1px;
+            margin: 6px 13px;
         }
     }
 }

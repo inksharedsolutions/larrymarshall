@@ -40,6 +40,16 @@
         display: block;
     }
 
+    .heading-logo {
+        img{
+            max-width: 124px;
+            padding: 11px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+
     .heading-banner-fs{
         font-size: 4em;
     }
