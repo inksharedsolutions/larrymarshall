@@ -25,7 +25,7 @@ const Footer = ()=>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/larry.ellerbee.5"
+                                <a href="https://www.facebook.com/AuthorLawrenceGabriel"
                                 target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -36,7 +36,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://twitter.com/receivegodsbest">
+                                    href="https://twitter.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faTwitter} />
@@ -46,7 +46,7 @@ const Footer = ()=>{
                             <li>
                                 <a  
                                     target="_blank"
-                                    href="https://www.instagram.com/larryellerbee910/">
+                                    href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faInstagram} />
@@ -56,7 +56,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/50991530-10-guidelines-on-how-to-receive-from-god">
+                                    href="https://www.goodreads.com/book/show/51471764-the-dreamwatcher-diaries">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads} />
