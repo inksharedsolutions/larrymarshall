@@ -462,20 +462,20 @@
     
         span{
             &:nth-child(1){
-                width: 92px;
+                width: 30%;
                 height: 700px;
                 position: absolute;
                 left: 0;
-                background: #E2CBBB;
+                background: #ead7cb;
                 z-index: 3;
             }
             
             &:nth-child(2){
-                width: 190px;
+                width: 50%;
                 height: 700px;
                 position: absolute;
                 left: 0;
-                background: #EFDED2;
+                background: #f5e4da;
             }
         }
 
