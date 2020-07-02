@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react'
 import {Link} from 'gatsby'
 import	Logo from '../../static/logo/main_logo.png'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 
 const Nav = (props) =>{
@@ -54,14 +55,20 @@ const Nav = (props) =>{
 
 				<ul className="list-nav-side">
 					<li>
-						<Link to="/">
+						<AniLink 
+							cover to="/" 
+							duration={2} 
+							bg="#f1e8e2">
 							Home
-						</Link>
+						</AniLink>
 					</li>
 					<li>
-						<Link to="/about-the-author">
+						<AniLink cover 
+							to="/about-the-author" 
+							duration={2} 
+							bg="#f1e8e2">
 							About the Author
-						</Link>
+						</AniLink>
 					</li>
 				</ul>
 
@@ -71,14 +78,22 @@ const Nav = (props) =>{
 
 				<ul className="list-nav-side">
 					<li>
-						<Link to="/about-the-book">
-							About The Book
-						</Link>
+						<AniLink 
+							cover 
+							to="/about-the-book" 
+							duration={2}
+							bg="#f1e8e2">
+							About the Book
+						</AniLink>
 					</li>
 					<li>
-						<Link to="/contact">
+						<AniLink 
+							cover 
+							to="/contact" 
+							duration={2} 
+							bg="#f1e8e2">
 							Contact
-						</Link>
+						</AniLink>
 					</li>
 				 </ul>
 			</nav>

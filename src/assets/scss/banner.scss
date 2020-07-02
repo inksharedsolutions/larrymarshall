@@ -26,18 +26,8 @@
 }
 
 .banner-section{
-    background: #f7f4e9;
-
-
-    background-image: url("../../../static/banner/web_banner.png");
-
-    /* Set a specific height */
+    overflow: hidden;
     height: 60vh;
-  
-    /* Create the parallax scrolling effect */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .banner-text{
@@ -84,6 +74,10 @@
     }
 }
 
+/*Custom React Parrallax*/
+.react-parallax{
+    overflow: initial !important;
+}
 
 @keyframes bounce {
     0% {
@@ -98,3 +92,6 @@
       top: 0px;
     }
   }
+
+
+  
