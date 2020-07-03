@@ -28,11 +28,10 @@ const MidMain = ()=>{
 
                             <h1 className="fontHeading heading-ft">About the Book</h1>
                             <p>
-                                Larry Marshall was born and raised 
-                                in Mishawaka, Indiana. He completed his 
-                                undergraduate studies in psychology at Taylor
-                                University where he wrote for the 
-                                college newspaper and played football. 
+                                Discouraged and disillusioned in the search for
+                                her soul mate, Lindsay Parker makes a startling 
+                                discovery after moving into her new loft in Downtown
+                                St. Louis.
                             </p>
                         </div>
                     </div>
