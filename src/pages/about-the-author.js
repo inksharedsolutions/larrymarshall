@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
-import AuthorImg from '../../static/author/author_img.png'
+import AuthorImg from '../../static/author/author_img.jpg'
 
  const AboutTheAuthor = (props)=>{
 
@@ -24,9 +24,7 @@ import AuthorImg from '../../static/author/author_img.png'
                             </div>
                         </div>
 
-
                         <article className="article-section" id="author">
-
                             <div className="heading-quote">
                                 <h4>
                                     "I am the Maiden Worth, untouched and alive."
@@ -36,9 +34,10 @@ import AuthorImg from '../../static/author/author_img.png'
                             </div>
 
                             <p>
-                                Larry Marshall was born and raised in Mishawaka, Indiana. 
+
+                                Larry Marshall was born and raised in Mishawaka, Indiana.
                                 He completed his undergraduate studies in psychology at Taylor 
-                                University where he wrote for the college newspaper and played football. 
+                                University where he wrote for the college newspaper and played football.
                                 He completed his Master’s degree in Counseling Psychology at Ball State University. 
                             </p>
 
@@ -52,6 +51,17 @@ import AuthorImg from '../../static/author/author_img.png'
                                 he created a children’s book that was published in 2017. The book, 
                                 (Book Title: “The Pig in Your Head”), includes a workbook curriculum designed 
                                 for both teachers and parents aimed at teaching self-regulation to the very young. 
+                            </p>
+
+                            <p>
+                                The author is also the creator of an innovative approach to couple’s therapy
+                                called “Couple Archetypes: Introducing a Jungian Approach to “Couples Therapy”.
+                                Most recently he has created a specific self-growth curriculum that maps a pathway
+                                to one’s Authentic Self. His current project dedicated to the “Me Too” movement is 
+                                a treatment approach designed to both measure the injury and heal the wound of sex 
+                                abuse survivors. This healing journey mapped out in a book currently under construction
+                                entitled “Purging the Trauma Laden Soul’ is an attempt to clarify the complexities 
+                                of the soul’s organic response to a sexual violation event.
                             </p>
 
                             <p>
@@ -73,8 +83,8 @@ import AuthorImg from '../../static/author/author_img.png'
                             <p>
                                 <span className="author-name">
                                     <p className="auth-paragrpah">
-                                        <span>Larry</span> 
-                                        <span>Marshall</span>
+                                        <span>Lawrence</span>
+                                        <span>Gabriel</span>
                                     </p>
                                     <span className="author-span-ft">Author |  Writer </span>
                                 </span>

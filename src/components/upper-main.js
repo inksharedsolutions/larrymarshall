@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react'
 import {Link} from 'gatsby'
-import AuthorImg from '../../static/author/author_img.png'
+import AuthorImg from '../../static/author/author_img.jpg'
 
 
 const UpperMain =()=>{
@@ -25,8 +25,8 @@ const UpperMain =()=>{
                                 untouched and alive.” 
                             </h1>
                             <p>
-                                Larry Marshall was born and raised in Mishawaka, Indiana
-                                .He completed his undergraduate studies in psychology
+                                Larry Marshall was born and raised in Mishawaka, Indiana.
+                                He completed his undergraduate studies in psychology
                                 at Taylor University where he wrote for the college
                                 newspaper and played football. He completed his
                                 Master’s degree in Counseling Psychology at Ball
@@ -35,11 +35,11 @@ const UpperMain =()=>{
 
                             <p className="author-name-fx">
                                 <span>
-                                    Larry
+                                    Lawrence 
                                 </span>
 
                                 <span>
-                                    Marshall
+                                    Gabriel
                                 </span>
                                 <span>
                                     Author & Writer

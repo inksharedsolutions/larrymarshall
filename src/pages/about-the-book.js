@@ -12,7 +12,7 @@ const AboutTheBook= (props) =>{
 
 	const slug =(props.location.href);
 	const disqusConfig = {
-	  shortname: 'larry-marshall',
+	  shortname: 'lawrence-gabriel',
 	  config: { identifier:  12, slug}
 	}
 

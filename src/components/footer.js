@@ -17,7 +17,7 @@ const Footer = ()=>{
                             <img src={Logo} alt="img-footer-logo"/>
                         </h1>
                         <p>
-                            Larry Marshall loves to hear from readers. You can reach him via email. 
+                            Lawrence Gabriel loves to hear from readers. You can reach him via email. 
                             Feel free to send questions about writing, him works, interviews 
                             and other publicity matters.
                         </p> 

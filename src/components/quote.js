@@ -16,7 +16,7 @@ const Quote = () =>{
                         <h1>I am the</h1>
                         <h2>Maiden Worth</h2>
                         <p>Untouched and alive</p>
-                        <span>Larry M.</span>
+                        <span>Lawrence Gabriel.</span>
                     </div>
                 </div>          
             </section>

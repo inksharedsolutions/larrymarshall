@@ -19,7 +19,7 @@ const LowerMain = ()=>{
 
                         <h1 className="fontHeading">Featured</h1>
                         <p className="middle-params">
-                            Larry Marshall has been featured numerous times on..
+                            Lawrence Gabriel has been featured numerous times on..
                         </p> 
                     </div>
 

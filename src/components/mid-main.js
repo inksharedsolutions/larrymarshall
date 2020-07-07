@@ -30,8 +30,8 @@ const MidMain = ()=>{
                             <p>
                                 Discouraged and disillusioned in the search for
                                 her soul mate, Lindsay Parker makes a startling 
-                                discovery after moving into her new loft in Downtown
-                                St. Louis.
+                                discovery after moving into her new loft in Downtown       
+                                St. Louis. 
                             </p>
                         </div>
                     </div>
