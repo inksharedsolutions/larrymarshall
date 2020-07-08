@@ -47,13 +47,13 @@ import AuthorImg from '../../static/author/author_img.jpg'
                                 of Sexual Abuse Survivors and Domestic Violence Survivors/Offenders, 
                                 and the treatment of Sex Addiction and Sex Offenders.
                             </p>
-                            
+
                             <p>
-                                 While working with 
-                                a preschool seeking guidance with behavior management for preschoolers  
-                                he created a children’s book that was published in 2017. The book, 
-                                (Book Title: “The Pig in Your Head”), includes a workbook curriculum designed 
-                                for both teachers and parents aimed at teaching self-regulation to the very young. 
+                                 While working with
+                                a preschool seeking guidance with behavior management for preschoolers
+                                he created a children’s book that was published in 2017. The book,
+                                (Book Title: “The Pig in Your Head”), includes a workbook curriculum designed
+                                for both teachers and parents aimed at teaching self-regulation to the very young.
                             </p>
 
                             <p>
