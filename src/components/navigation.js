@@ -73,7 +73,13 @@ const Nav = (props) =>{
 				</ul>
 
 				<div className="heading-logo">
-					<img alt="logo" src={Logo}/>
+					<AniLink 
+						cover
+						to="/" 	
+						duration={2} 
+						bg="#f1e8e2">
+						<img alt="logo" src={Logo}/>
+					</AniLink>
 				</div>
 
 				<ul className="list-nav-side">

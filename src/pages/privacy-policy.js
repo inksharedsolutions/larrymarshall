@@ -7,20 +7,6 @@ import Parser from 'html-react-parser';
 const Pp = (props) =>{
 
 
-	const bannerText = (
-		<>
-			<span className="banr-tagline-fx">
-				Valentine Cardinale
-			</span>
-
-			<h1 className="banr-header-fx">
-				Privacy
-				<span className="banr-spn-highlight">Policy</span>
-			</h1>
-		</>
-	)
-
-
 	const FetchMarkDown = useStaticQuery(graphql`
 		 query PrivacyPolicyPageQuery  {
 			  markdownRemark(fileAbsolutePath: {regex: "/privacy-policy.md/" }) {

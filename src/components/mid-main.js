@@ -22,8 +22,8 @@ const MidMain = ()=>{
                         <div className="box-element-right">
 
                             <p className="span-letter-ft fontHeading">
-                                <span>A St. Louis</span> 
-                                <span>Love Story</span>
+                                <span>The Dreamwatcher</span> 
+                                <span>Diaries</span>
                             </p>
 
                             <h1 className="fontHeading heading-ft">About the Book</h1>

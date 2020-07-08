@@ -34,8 +34,7 @@ import AuthorImg from '../../static/author/author_img.jpg'
                             </div>
 
                             <p>
-
-                                Larry Marshall was born and raised in Mishawaka, Indiana.
+                                Lawrence Gabriel was born and raised in Mishawaka, Indiana.
                                 He completed his undergraduate studies in psychology at Taylor 
                                 University where he wrote for the college newspaper and played football.
                                 He completed his Master’s degree in Counseling Psychology at Ball State University. 
@@ -46,7 +45,11 @@ import AuthorImg from '../../static/author/author_img.jpg'
                                 working with a wide variety of psychological problem populations 
                                 and issues. Some of these more recent issues include the Treatment 
                                 of Sexual Abuse Survivors and Domestic Violence Survivors/Offenders, 
-                                and the treatment of Sex Addiction and Sex Offenders While working with 
+                                and the treatment of Sex Addiction and Sex Offenders.
+                            </p>
+                            
+                            <p>
+                                 While working with 
                                 a preschool seeking guidance with behavior management for preschoolers  
                                 he created a children’s book that was published in 2017. The book, 
                                 (Book Title: “The Pig in Your Head”), includes a workbook curriculum designed 

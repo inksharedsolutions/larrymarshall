@@ -25,7 +25,7 @@ const UpperMain =()=>{
                                 untouched and alive.” 
                             </h1>
                             <p>
-                                Larry Marshall was born and raised in Mishawaka, Indiana.
+                                Lawrence Gabriel was born and raised in Mishawaka, Indiana.
                                 He completed his undergraduate studies in psychology
                                 at Taylor University where he wrote for the college
                                 newspaper and played football. He completed his
