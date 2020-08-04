@@ -21,8 +21,9 @@ const UpperMain =()=>{
                         </div>
                         <div className="col-right">
                             <h1 className="fontHeading">
-                                “I am the Maiden Worth, 
-                                untouched and alive.” 
+                                “It’s been said that we are like travelers in 
+                                a strange land and that here at this place
+                                we are as far from home as we ever shall be.” 
                             </h1>
                             <p>
                                 Lawrence Gabriel was born and raised in Mishawaka, Indiana.
