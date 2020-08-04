@@ -15,7 +15,7 @@ const Banner = (props) =>{
                         <Parallax 
                             bgImageAlt="the cat"
                             strength={300}
-                            bgImage={require('../../static/banner/web_banner.png')}
+                            bgImage={require('../../static/banner/web_banner_02.jpg')}
                             >
                                 <div className="container-gt">
                                     <div className="grid-two-columns" id="banner-layout-responsive">
