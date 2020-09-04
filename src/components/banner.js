@@ -15,7 +15,7 @@ const Banner = (props) =>{
                         <Parallax 
                             bgImageAlt="the cat"
                             strength={300}
-                            bgImage={require('../../static/banner/web_banner_02.jpg')}
+                            bgImage={require('../../static/banner/arch_banner.jpg')}
                             >
                                 <div className="container-gt">
                                     <div className="grid-two-columns" id="banner-layout-responsive">
@@ -25,15 +25,15 @@ const Banner = (props) =>{
                                         </div>
 
                                         <div className="right-col banner-text">
-                                                <h1 className="heading-banner-fs">
-                                                    <span>The </span>
-                                                    <span>Dreamwatcher</span>
-                                                    <span>Diaries</span>
-                                                </h1>
+                                            <h1 className="heading-banner-fs">
+                                                <span>The </span>
+                                                <span>Dreamwatcher</span>
+                                                <span>Diaries</span>
+                                            </h1>
 
-                                                <span className="meta-spanline">
-                                                    A St. Louis Love Story
-                                                </span>
+                                            <span className="meta-spanline">
+                                                A St. Louis Love Story
+                                            </span>
                                         </div>
                                     </div>
                                 </div>

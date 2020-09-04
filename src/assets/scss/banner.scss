@@ -21,6 +21,7 @@
     }
 }
 
+
 #banner-layout-responsive{
     height: 60vh;
 }
@@ -36,7 +37,7 @@
 
 .heading-banner-fs{
     
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Atlantic-Time';
     margin-bottom: 5%;
     color: #f6cf83;
@@ -44,7 +45,7 @@
     span{
 
         display: block;
-        color: #ffdc73 !important;
+        color: #ffc414 !important;
         font-weight: 100;
 
         &:nth-child(1){
@@ -66,10 +67,10 @@
 
 .meta-spanline{
     color: #fff !important;
-    // font-family: 'Scheherazade', serif;
-    letter-spacing: 1px;
+    font-family: 'Scheherazade', serif;
+    letter-spacing: 0px;
     font-weight: 100;
-    font-size: 17px;
+    font-size: 30px;
 
     &:before{
         content: '';
@@ -99,18 +100,16 @@
 }
 
 @keyframes bounce {
+    
     0% {
       top: 0px;
-
     }
+
     50% {
       top: 20px;
-
     }
+    
     100% {
       top: 0px;
     }
 }
-
-
-  

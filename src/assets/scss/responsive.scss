@@ -347,6 +347,13 @@
 
 @media only screen and (max-width: 650px) {
 
+    .heading-banner-fs{
+        &:nth-child(1),
+        &:nth-child(3){
+            text-align: center !important;
+        }
+    }
+
     .slick-initialized .slick-slide h3{
         font-size: 1em;
     }
