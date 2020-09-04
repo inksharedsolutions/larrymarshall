@@ -25,13 +25,14 @@ const Banner = (props) =>{
                                         </div>
 
                                         <div className="right-col banner-text">
-                                                <h1 className="heading-banner-fs fontHeading">
-                                                    <span>A St. Louis</span>
-                                                    <span>Love Story</span>
+                                                <h1 className="heading-banner-fs">
+                                                    <span>The </span>
+                                                    <span>Dreamwatcher</span>
+                                                    <span>Diaries</span>
                                                 </h1>
 
                                                 <span className="meta-spanline">
-                                                    The Dreamwatcher Diaries
+                                                    A St. Louis Love Story
                                                 </span>
                                         </div>
                                     </div>

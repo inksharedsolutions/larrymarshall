@@ -35,11 +35,31 @@
 }
 
 .heading-banner-fs{
-    font-size: 6em;
+    
+    font-size: 5em;
+    font-family: 'Atlantic-Time';
+    margin-bottom: 5%;
+    color: #f6cf83;
+
     span{
+
         display: block;
-        color: #fff !important;
+        color: #ffdc73 !important;
         font-weight: 100;
+
+        &:nth-child(1){
+            font-size: 40px;
+            text-align: left;
+            margin: 0 auto;
+            max-width: 412px;
+        }
+
+        &:nth-child(3){
+            font-size: 75px;
+            text-align: right;
+            margin: 0 auto;
+            max-width: 432px;
+        }
     }
 }
 
