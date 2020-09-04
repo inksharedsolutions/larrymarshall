@@ -82,13 +82,18 @@ button{
 }
 
 
+@font-face {
+    font-family: 'Atlantic-Time'; /*a name to be used later*/
+    src: url("../../../static/fonts/Atlantic_Time.otf") format('truetype'); /*URL to font*/
+    font-weight: normal;
+}
+
 /*Defaults*/
 .fontHeading{
     font-family: 'Scheherazade', serif;
 }
 
 /*Grid Elements*/
-
 .grid-two-columns{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,7 +101,6 @@ button{
     margin: 0 5%;
     align-items: center;
 }
-
 
 .grid-template-four-col{
     display: grid;
@@ -127,10 +131,8 @@ button{
     ul {
         padding: 1em 12px;
         border-radius: 50%;
-        // background: #ffca00;
         cursor: pointer;
         position: relative;
-        // z-index: 99999;
     }
 
     ul > .hamburger-span{

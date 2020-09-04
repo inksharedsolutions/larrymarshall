@@ -46,11 +46,10 @@
 
 .meta-spanline{
     color: #fff !important;
-    font-family: 'Scheherazade', serif;
+    // font-family: 'Scheherazade', serif;
     letter-spacing: 1px;
     font-weight: 100;
-    font-size: 24px;
-
+    font-size: 17px;
 
     &:before{
         content: '';
@@ -91,7 +90,7 @@
     100% {
       top: 0px;
     }
-  }
+}
 
 
   
