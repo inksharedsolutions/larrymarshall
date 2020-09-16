@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
-import AuthorImg from '../../static/author/author_img.jpg'
+import AuthorImg from '../../static/author/author_model.jpg'
 
  const AboutTheAuthor = (props)=>{
 
@@ -26,6 +26,7 @@ import AuthorImg from '../../static/author/author_img.jpg'
 
                         <article className="article-section" id="author">
                             <div className="heading-quote">
+                                 
                                 <h4>
                                     "I am the Maiden Worth, untouched and alive."
                                 </h4>

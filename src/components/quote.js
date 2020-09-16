@@ -13,9 +13,9 @@ const Quote = () =>{
                 
                 <div className="grid-child-elements" >
                     <div className="text-content-wrapper">
-                        <h1>I am the</h1>
-                        <h2>Maiden Worth</h2>
-                        <p>Untouched and alive</p>
+                        <h1>On this day</h1>
+                        <h2>That sense of purpose</h2>
+                        <p>was compelling like hearing the whisper of an Epiphany that waits for you just around the corner.</p>
                         <span>Lawrence Gabriel.</span>
                     </div>
                 </div>          
