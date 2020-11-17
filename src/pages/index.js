@@ -7,6 +7,7 @@ import MidMain from '../components/mid-main'
 import LowerMain from '../components/lower-main'
 import Footer from '../components/footer'
 import Quote from '../components/quote'
+import BookTrailer from '../components/book-trailer'
 
 
 //images
@@ -19,6 +20,7 @@ const IndexPage = (props) =>{
       <Banner isFront={true} />
       <UpperMain/>
       <MidMain/>
+      <BookTrailer/>
       <Quote/>
       <LowerMain/>
       <Footer/>
