@@ -9,7 +9,7 @@ const BookTrailer = ()=>{
                     <div className="grid-two-columns trailer-wrapper"> 
 
                         <div className="trailer-box">
-                            <iframe src="https://www.youtube.com/watch?v=dQ9lJ_VLq9U" width="600" height="400"></iframe>
+                            <iframe className="trailer-video" src="https://www.youtube.com/embed/dQ9lJ_VLq9U" width="600" height="400"></iframe>
                         </div>
 
                         <div className="trailer-box trailer-content">
